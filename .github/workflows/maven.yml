@@ -20,4 +20,4 @@ jobs:
         distribution: 'temurin'
         # cache: maven
     - name: FireFlink suite execution
-      run: java -jar fireflink-action-1.0.0.jar ${{vars.FIREFLINK_URL}} SUITE1065 ${{vars.FIREFLINK_TOKEN}} ${{vars.USERNAME}} ${{vars.FIREFLINK_PROJECT_TYPE}} & java -jar fireflink-action-1.0.0.jar ${{vars.FIREFLINK_URL}} SUITE1064 ${{vars.FIREFLINK_TOKEN}} ${{vars.USERNAME}} ${{vars.FIREFLINK_PROJECT_TYPE}}
+      run: java -jar fireflink-action-1.0.0.jar ${{vars.FIREFLINK_URL}} SUITE1065 ${{vars.FIREFLINK_TOKEN}} ${{vars.USERNAME}} ${{vars.FIREFLINK_PROJECT_TYPE}}
